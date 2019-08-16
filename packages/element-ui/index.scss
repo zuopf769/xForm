@@ -1,0 +1,9 @@
+@import './theme/index.scss'; 
+@import '../../src/index.css';
+
+:root{
+  --xform-color-primary: #{$--color-primary};
+  --xform-color-danger: #{$--color-danger};
+  
+  --xform-color-primary-lighten: #{mix($--color-primary, #fff, 12%)};
+}
